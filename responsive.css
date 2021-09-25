@@ -1,0 +1,46 @@
+@media screen and (max-width: 740px) {
+  #wrapper {
+    padding: 20px 15px;
+    margin: 0 25px;
+  }
+  #info {
+    margin: 0 25%;
+  }
+
+  #info h1,
+  h3,
+  h2,
+  small {
+    text-align: center;
+  }
+  #photo {
+    display: block;
+    margin: 2% 25%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #info {
+    margin: 0 15%;
+  }
+  #photo {
+    margin: 2% 20%;
+  }
+  #skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #info {
+    margin: 0 10%;
+  }
+  #photo {
+    margin: 2% 15%;
+  }
+}
